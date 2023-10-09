@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 30em 30em 30em;
+  grid-template-rows: 20em 20em;
+  gap: 2em;
+  padding: 1em;
+  place-content: center;
+ 
+}
+.list {
+text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px black;
+  background-color: pink;
+  border-radius: 1em;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.list:hover{
+    opacity: .7;
+}
+.selected{
+    background-color: greenyellow;
+}
+h1 {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3rem;
+}
